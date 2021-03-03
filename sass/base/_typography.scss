@@ -1,7 +1,7 @@
 .title {
   font-size: 2rem;
   text-transform: uppercase;
-
+  font-family: inherit !important;
   letter-spacing: 0.2rem;
   font-weight: 400;
   color: $color-main !important;
@@ -11,4 +11,17 @@
   // border: 1px solid $color-sec;
   margin: 1rem 0rem;
   text-decoration: underline;
+
+  &__clients {
+    text-transform: uppercase;
+    font-family: inherit !important;
+    letter-spacing: 0.2rem;
+    font-weight: 200;
+    color: $color-main !important;
+    padding: 1rem;
+    border: 2px solid $color-sec;
+    margin: 1rem 0rem;
+
+    font-size: 1.5rem;
+  }
 }

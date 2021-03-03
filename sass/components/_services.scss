@@ -1,7 +1,11 @@
 .services {
   &__title {
     color: $color-sec !important;
-    // backdrop-filter: blur(100px);
+    text-transform: uppercase;
+    backdrop-filter: contrast(20%);
+    font-size: 2.2rem;
+    letter-spacing: 0.2rem;
     padding: 1rem;
+    font-weight: 200;
   }
 }

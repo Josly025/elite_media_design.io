@@ -13,11 +13,22 @@ html {
 .title {
   font-size: 2rem;
   text-transform: uppercase;
+  font-family: inherit !important;
   letter-spacing: 0.2rem;
   font-weight: 400;
   color: #002f6c !important;
   margin: 1rem 0rem;
   text-decoration: underline; }
+  .title__clients {
+    text-transform: uppercase;
+    font-family: inherit !important;
+    letter-spacing: 0.2rem;
+    font-weight: 200;
+    color: #002f6c !important;
+    padding: 1rem;
+    border: 2px solid #f0ad4e;
+    margin: 1rem 0rem;
+    font-size: 1.5rem; }
 
 .header__title {
   margin: 0;
@@ -35,12 +46,15 @@ html {
   letter-spacing: 0.4rem;
   text-transform: uppercase;
   backdrop-filter: blur(90px);
-  padding: 2rem; }
+  padding: 2rem;
+  font-weight: 100; }
 
 .nav__links {
   color: #002f6c !important;
   letter-spacing: 0.2rem;
-  font-weight: 600; }
+  font-weight: 400;
+  font-size: 1rem !important;
+  font-family: inherit !important; }
 
 .nav__links:hover {
   border-top: 3px solid #f0ad4e; }
@@ -59,11 +73,16 @@ html {
   .footer__info {
     color: #f0ad4e !important;
     letter-spacing: 0.1rem;
-    font-size: 0.8rem; }
+    font-size: 1rem; }
 
 .services__title {
   color: #f0ad4e !important;
-  padding: 1rem; }
+  text-transform: uppercase;
+  backdrop-filter: contrast(20%);
+  font-size: 2.2rem;
+  letter-spacing: 0.2rem;
+  padding: 1rem;
+  font-weight: 200; }
 
 .mission__slogan {
   font-size: 1.25rem;
