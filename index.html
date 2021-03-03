@@ -13,6 +13,15 @@
   </head>
   <body>
     <!--NAV-->
+    <div class="uk-navbar-left uk-margin-medium-left">
+      <ul class="uk-navbar-nav">
+        <li><a class="nav__links" href="#">EDM</a></li>
+        <li><a class="nav__links" href="#">Categories</a></li>
+        <li><a class="nav__links" href="#">Mission</a></li>
+        <li><a class="nav__links" href="#">Services</a></li>
+        <li><a class="nav__links" href="#">Contact</a></li>
+      </ul>
+    </div>
     <div
       class="uk-height-large uk-background-cover uk-overflow-hidden uk-light uk-flex uk-flex-top uk-margin-large-bottom"
       style="background-image: url('images/minneapolis-2.jpg')"
@@ -21,16 +30,10 @@
         class="uk-width-1-2@m uk-text-center uk-margin-auto uk-margin-auto-vertical"
       >
         <div class="uk-position-top">
-          <nav class="uk-navbar-container uk-navbar-transparent" uk-navbar>
-            <div class="uk-navbar-left">
-              <ul class="uk-navbar-nav">
-                <li><a class="nav__links" href="#">EDM</a></li>
-                <li><a class="nav__links" href="#">Item</a></li>
-                <li><a class="nav__links" href="#">Services</a></li>
-                <li><a class="nav__links" href="#">Contact</a></li>
-              </ul>
-            </div>
-          </nav>
+          <nav
+            class="uk-navbar-container uk-navbar-transparent nav__glass"
+            uk-navbar
+          ></nav>
         </div>
 
         <h1
@@ -53,13 +56,14 @@
     <div class="uk-child-width-expand@s uk-margin-large-bottom" uk-grid>
       <div class="uk-grid-item-match">
         <div class="uk-card uk-card-default uk-card-body">
-          <h3>EMD</h3>
-          <p>Become Elite</p>
+          <h3 class="title">EMD</h3>
+          <h4 class="mission__title--emp">Elite Media Design</h4>
+          <p class="mission__slogan">Tansform your brand and become Elite</p>
         </div>
       </div>
       <div>
-        <h3>Mission</h3>
-        <p>
+        <h3 class="title">Mission</h3>
+        <p class="mission__slogan">
           We strive to deliver value in our service, and to understand with
           respect all of our clients needs and to provide a partnership that is
           created when we host our clients web services, develop their site,
@@ -81,7 +85,7 @@
           <div class="uk-panel">
             <img src="images/seo-3.jpg" alt="" />
             <div class="uk-position-center uk-panel">
-              <h1 class="title__services">SEO</h1>
+              <h1 class="services__title">SEO</h1>
             </div>
           </div>
         </li>
@@ -89,7 +93,7 @@
           <div class="uk-panel">
             <img src="images/website-2.jpg" alt="" />
             <div class="uk-position-center uk-panel">
-              <h1 class="title__services">Websites</h1>
+              <h1 class="services__title">Websites</h1>
             </div>
           </div>
         </li>
@@ -97,7 +101,7 @@
           <div class="uk-panel">
             <img src="images/ecomm.jpg" alt="" />
             <div class="uk-position-center uk-panel">
-              <h1 class="title__services">Ecommerce</h1>
+              <h1 class="services__title">Ecommerce</h1>
             </div>
           </div>
         </li>
@@ -105,7 +109,7 @@
           <div class="uk-panel">
             <img src="images/graphic.jpg" alt="" />
             <div class="uk-position-center uk-panel">
-              <h1 class="title__services">Graphic Design</h1>
+              <h1 class="services__title">Graphic Design</h1>
             </div>
           </div>
         </li>
@@ -113,7 +117,7 @@
           <div class="uk-panel">
             <img src="images/email-2.jpg" alt="" />
             <div class="uk-position-center uk-panel">
-              <h1 class="title__services">Email Marketing</h1>
+              <h1 class="services__title">Email Marketing</h1>
             </div>
           </div>
         </li>
@@ -121,7 +125,7 @@
           <div class="uk-panel">
             <img src="images/photography.jpg" alt="" />
             <div class="uk-position-center uk-panel">
-              <h1 class="title__services">Photography</h1>
+              <h1 class="services__title">Photography</h1>
             </div>
           </div>
         </li>
@@ -129,19 +133,19 @@
           <div class="uk-panel">
             <img src="images/video.jpg" alt="" />
             <div class="uk-position-center uk-panel">
-              <h1 class="title__services">Videography</h1>
+              <h1 class="services__title">Videography</h1>
             </div>
           </div>
         </li>
       </ul>
       <a
-        class="uk-position-center-left uk-position-small uk-hidden-hover"
+        class="uk-position-center-left uk-position-small"
         href="#"
         uk-slidenav-previous
         uk-slider-item="previous"
       ></a>
       <a
-        class="uk-position-center-right uk-position-small uk-hidden-hover"
+        class="uk-position-center-right uk-position-small"
         href="#"
         uk-slidenav-next
         uk-slider-item="next"

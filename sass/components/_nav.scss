@@ -1,8 +1,19 @@
 .nav {
   &__links {
-    color: $color-sec !important;
+    color: $color-main !important;
+    letter-spacing: 0.2rem;
+    font-weight: 600;
   }
   &__links:hover {
-    border-bottom: 2px solid $color-sec;
+    border-top: 3px solid $color-sec;
   }
 }
+
+//  &__glass {
+//     background: rgba(255, 255, 255, 0.438);
+//     border-radius: 0;
+//     position: relative;
+//     z-index: 1;
+//     /* color:rgba(128, 128, 128, 0.801) */
+//     backdrop-filter: blur(90px);
+//   }
