@@ -18,6 +18,22 @@ html {
   color: #002f6c !important;
   margin: 1rem 0rem; }
 
+.title__services {
+  color: #f0ad4e !important; }
+
+.header__title {
+  color: #002f6c !important;
+  -webkit-text-stroke: 0.8px #f0ad4e; }
+
+.header__vision {
+  font-size: 4rem; }
+
+.nav__links {
+  color: #f0ad4e !important; }
+
+.nav__links:hover {
+  border-bottom: 2px solid #f0ad4e; }
+
 .footer {
   background: #002f6c; }
   .footer__copy {

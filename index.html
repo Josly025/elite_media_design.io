@@ -14,35 +14,43 @@
   <body>
     <!--NAV-->
     <div
-      class="uk-position-relative uk-cover-container uk-height-large uk-margin-large-bottom"
+      class="uk-height-large uk-background-cover uk-overflow-hidden uk-light uk-flex uk-flex-top uk-margin-large-bottom"
+      style="background-image: url('images/minneapolis-2.jpg')"
     >
-      <img src="images/minneapolis-2.jpg" alt="Minneapolis" />
-      <div class="uk-position-top">
-        <nav class="uk-navbar-container uk-navbar-transparent" uk-navbar>
-          <div class="uk-navbar-left">
-            <ul class="uk-navbar-nav">
-              <li><a href="#">EDM</a></li>
-              <li><a href="#">Item</a></li>
-              <li><a href="#">Services</a></li>
-              <li><a href="#">Contact</a></li>
-            </ul>
-          </div>
-        </nav>
-      </div>
       <div
         class="uk-width-1-2@m uk-text-center uk-margin-auto uk-margin-auto-vertical"
       >
-        <h1 uk-parallax="opacity: 0,1; y: -100,0; scale: 2,1; viewport: 0.5;">
-          Headline
+        <div class="uk-position-top">
+          <nav class="uk-navbar-container uk-navbar-transparent" uk-navbar>
+            <div class="uk-navbar-left">
+              <ul class="uk-navbar-nav">
+                <li><a class="nav__links" href="#">EDM</a></li>
+                <li><a class="nav__links" href="#">Item</a></li>
+                <li><a class="nav__links" href="#">Services</a></li>
+                <li><a class="nav__links" href="#">Contact</a></li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+
+        <h1
+          class="header__title uk-margin-large-top"
+          uk-parallax="opacity: 1,1; y: 0,0; scale: 2,1; viewport: 0.5;"
+        >
+          Elite Media Design
         </h1>
-        <p uk-parallax="opacity: 0,1; y: 100,0; scale: 0.5,1; viewport: 0.5;">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        <p
+          class="header__vision"
+          uk-parallax="opacity: 1,1; y: 0,0; scale: 0.5,.5; viewport: 0.5;"
+        >
+          Our vision is to create a business world full of prosperity, meaning,
+          and connection for all.
         </p>
       </div>
     </div>
+
     <!--Mission-->
-    <div class="uk-child-width-expand@s" uk-grid>
+    <div class="uk-child-width-expand@s uk-margin-large-bottom" uk-grid>
       <div class="uk-grid-item-match">
         <div class="uk-card uk-card-default uk-card-body">
           <h3>EMD</h3>
@@ -72,26 +80,32 @@
         <li>
           <div class="uk-panel">
             <img src="images/seo-3.jpg" alt="" />
-            <div class="uk-position-center uk-panel"><h1>SEO</h1></div>
+            <div class="uk-position-center uk-panel">
+              <h1 class="title__services">SEO</h1>
+            </div>
           </div>
         </li>
         <li>
           <div class="uk-panel">
             <img src="images/website-2.jpg" alt="" />
-            <div class="uk-position-center uk-panel"><h1>Websites</h1></div>
+            <div class="uk-position-center uk-panel">
+              <h1 class="title__services">Websites</h1>
+            </div>
           </div>
         </li>
         <li>
           <div class="uk-panel">
             <img src="images/ecomm.jpg" alt="" />
-            <div class="uk-position-center uk-panel"><h1>Ecommerce</h1></div>
+            <div class="uk-position-center uk-panel">
+              <h1 class="title__services">Ecommerce</h1>
+            </div>
           </div>
         </li>
         <li>
           <div class="uk-panel">
             <img src="images/graphic.jpg" alt="" />
             <div class="uk-position-center uk-panel">
-              <h1>Graphic Design</h1>
+              <h1 class="title__services">Graphic Design</h1>
             </div>
           </div>
         </li>
@@ -99,20 +113,24 @@
           <div class="uk-panel">
             <img src="images/email-2.jpg" alt="" />
             <div class="uk-position-center uk-panel">
-              <h1>Email Marketing</h1>
+              <h1 class="title__services">Email Marketing</h1>
             </div>
           </div>
         </li>
         <li>
           <div class="uk-panel">
             <img src="images/photography.jpg" alt="" />
-            <div class="uk-position-center uk-panel"><h1>Photography</h1></div>
+            <div class="uk-position-center uk-panel">
+              <h1 class="title__services">Photography</h1>
+            </div>
           </div>
         </li>
         <li>
           <div class="uk-panel">
             <img src="images/video.jpg" alt="" />
-            <div class="uk-position-center uk-panel"><h1>Videography</h1></div>
+            <div class="uk-position-center uk-panel">
+              <h1 class="title__services">Videography</h1>
+            </div>
           </div>
         </li>
       </ul>

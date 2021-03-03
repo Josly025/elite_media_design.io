@@ -1,0 +1,11 @@
+.header {
+  &__title {
+    color: $color-main !important;
+    -webkit-text-stroke: 0.8px $color-sec;
+  }
+  &__vision {
+    // color: $color-black !important;
+    // -webkit-text-stroke: 0.8px $color-sec;
+    font-size: 4rem;
+  }
+}

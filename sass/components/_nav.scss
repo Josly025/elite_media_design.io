@@ -1,0 +1,8 @@
+.nav {
+  &__links {
+    color: $color-sec !important;
+  }
+  &__links:hover {
+    border-bottom: 2px solid $color-sec;
+  }
+}
