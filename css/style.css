@@ -6,4 +6,16 @@
 body {
   font-size: 10px;
   margin: 1rem;
-  font-family: Montserrat, Georgia, "Times New Roman", Times, serif; }
+  font-family: "Montserrat" !important; }
+
+.footer {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  font-weight: 400;
+  color: #333333 !important;
+  -webkit-text-stroke-width: 0.8px;
+  -webkit-text-stroke-color: #f0ad4e;
+  background: #002f6c;
+  border: 1px solid #002f6c;
+  margin: 2rem 0rem; }
