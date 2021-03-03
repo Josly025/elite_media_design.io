@@ -62,10 +62,11 @@ html {
     font-size: 0.8rem; }
 
 .services__title {
-  color: #f0ad4e !important; }
+  color: #f0ad4e !important;
+  padding: 1rem; }
 
 .mission__slogan {
-  font-size: 1rem;
+  font-size: 1.25rem;
   color: #002f6c; }
 
 .mission__title--emp {

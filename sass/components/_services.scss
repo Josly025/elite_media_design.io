@@ -1,5 +1,7 @@
 .services {
   &__title {
     color: $color-sec !important;
+    // backdrop-filter: blur(100px);
+    padding: 1rem;
   }
 }
