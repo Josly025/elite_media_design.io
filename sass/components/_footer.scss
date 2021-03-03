@@ -1,23 +1,23 @@
 .footer {
-  background: $color-sec;
+  background: $color-main;
   &__copy {
     font-size: 1.2rem;
     text-transform: uppercase;
 
     letter-spacing: 0.2rem;
     font-weight: 400;
-    color: $color-black !important;
+    color: $color-sec !important;
     -webkit-text-stroke-width: 0.8px;
-    -webkit-text-stroke-color: $color-main;
-    background: $color-sec;
+    -webkit-text-stroke-color: $color-sec;
 
-    border: 1px solid $color-sec;
-    margin: 1.5rem 0rem;
+    // border: 1px solid $color-sec;
+    margin: 1rem 0rem;
   }
 
   &__info {
-    color: $color-main !important;
-
-    font-size: 1rem;
+    color: $color-sec !important;
+    letter-spacing: 0.1rem;
+    font-size: 0.8rem;
+    // text-transform: uppercase;
   }
 }

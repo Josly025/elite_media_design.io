@@ -10,6 +10,14 @@ body {
 html {
   font-family: "Monterrat" !important; }
 
+.title {
+  font-size: 2rem;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  font-weight: 400;
+  color: #002f6c !important;
+  margin: 1rem 0rem; }
+
 .footer {
   background: #002f6c; }
   .footer__copy {
@@ -17,12 +25,11 @@ html {
     text-transform: uppercase;
     letter-spacing: 0.2rem;
     font-weight: 400;
-    color: #333333 !important;
+    color: #f0ad4e !important;
     -webkit-text-stroke-width: 0.8px;
     -webkit-text-stroke-color: #f0ad4e;
-    background: #002f6c;
-    border: 1px solid #002f6c;
-    margin: 1.5rem 0rem; }
+    margin: 1rem 0rem; }
   .footer__info {
     color: #f0ad4e !important;
-    font-size: 1rem; }
+    letter-spacing: 0.1rem;
+    font-size: 0.8rem; }

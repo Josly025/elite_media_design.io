@@ -1,1 +1,13 @@
+.title {
+  font-size: 2rem;
+  text-transform: uppercase;
 
+  letter-spacing: 0.2rem;
+  font-weight: 400;
+  color: $color-main !important;
+  //   -webkit-text-stroke-width: 1px;
+  //   -webkit-text-stroke-color: $color-sec;
+
+  // border: 1px solid $color-sec;
+  margin: 1rem 0rem;
+}
