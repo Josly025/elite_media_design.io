@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Josly025/elite_media_design.io/issues"
   },
-  "homepage": "https://github.com/Josly025/elite_media_design.io#readme"
+  "homepage": "https://github.com/Josly025/elite_media_design.io#readme",
+  "dependencies": {
+    "node-sass": "^5.0.0"
+  }
 }
