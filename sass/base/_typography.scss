@@ -24,4 +24,12 @@
 
     font-size: 1.5rem;
   }
+  &__cat {
+    color: $color-sec !important;
+    font-family: inherit;
+    letter-spacing: inherit;
+    font-weight: inherit;
+    font-size: 2rem;
+    text-transform: uppercase;
+  }
 }

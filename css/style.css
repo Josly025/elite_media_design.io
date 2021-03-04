@@ -29,6 +29,13 @@ html {
     border: 2px solid #f0ad4e;
     margin: 1rem 0rem;
     font-size: 1.5rem; }
+  .title__cat {
+    color: #f0ad4e !important;
+    font-family: inherit;
+    letter-spacing: inherit;
+    font-weight: inherit;
+    font-size: 2rem;
+    text-transform: uppercase; }
 
 .button__contact {
   background-color: #f0ad4e;
