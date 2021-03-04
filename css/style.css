@@ -8,6 +8,7 @@ body {
   margin: 1rem; }
 
 html {
+  font-family: "Monterrat" !important;
   background: cover; }
 
 .title {
@@ -121,3 +122,10 @@ html {
   font-size: 1rem;
   color: #f0ad4e;
   letter-spacing: 0.1rem; }
+
+.cat__title {
+  font-size: 2rem;
+  text-transform: uppercase;
+  color: #002f6c !important;
+  letter-spacing: 0.2rem;
+  font-family: Mon; }

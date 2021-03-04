@@ -1,0 +1,8 @@
+.cat {
+  &__title {
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: $color-main !important;
+    letter-spacing: 0.2rem;
+  }
+}

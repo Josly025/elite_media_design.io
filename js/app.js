@@ -14,7 +14,7 @@ function renderMeals() {
         (meal) =>
           (render += `
         
-<div  class="uk-card uk-card-default uk-grid-margin uk-card-body uk-grid-margin ">
+<div  class="uk-card uk-card-default uk-card-body uk-grid-margin ">
     
  <div class="uk-card-media-top">
         <img
@@ -24,15 +24,15 @@ function renderMeals() {
         />
       </div>
       <div class="uk-card-body">
-        <h3 class="uk-card-title dash__title--product">${meal.strCategory}</h3>
+        <h3 class="uk-card-title dash__title--product cat__title">${meal.strCategory}</h3>
       </div>
-        <button
+    
+        <button uk-toggle="target: #my-id"
           class="uk-button uk-button-default uk-margin-medium-bottom dash__cartBtn"
         >
           Full Reciepe
         </button>
-    
-
+          <p id="my-id">${meal.strCategoryDescription}</p>
 </div>
 
 
