@@ -1,7 +1,15 @@
 .mission {
+  &__card {
+    background-image: linear-gradient(
+        to right bottom,
+        rgba($color-black, 0.8),
+        rgba($color-main, 0.8)
+      ),
+      url("../../images/metal.jpg");
+  }
   &__slogan {
     font-size: 1.25rem;
-    color: $color-main;
+    color: $color-sec;
   }
   &__title--emp {
     font-size: 1.4rem;

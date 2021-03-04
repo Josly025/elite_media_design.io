@@ -1,5 +1,10 @@
 .footer {
-  background: $color-main;
+  background-image: linear-gradient(
+      to right bottom,
+      rgba($color-black, 0.8),
+      rgba($color-main, 0.8)
+    ),
+    url("../../images/metal.jpg");
   &__copy {
     font-size: 1.2rem;
     text-transform: uppercase;

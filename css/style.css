@@ -30,6 +30,17 @@ html {
     margin: 1rem 0rem;
     font-size: 1.5rem; }
 
+.button__contact {
+  background-color: #f0ad4e;
+  color: #002f6c;
+  font-size: 1.1rem;
+  letter-spacing: 0.2rem; }
+
+.button__contact:hover {
+  background-color: #002f6c;
+  color: #f0ad4e;
+  border: solid 2px #f0ad4e; }
+
 .header__title {
   margin: 0;
   color: #002f6c;
@@ -60,7 +71,7 @@ html {
   border-top: 3px solid #f0ad4e; }
 
 .footer {
-  background: #002f6c; }
+  background-image: linear-gradient(to right bottom, rgba(51, 51, 51, 0.8), rgba(0, 47, 108, 0.8)), url("../../images/metal.jpg"); }
   .footer__copy {
     font-size: 1.2rem;
     text-transform: uppercase;
@@ -84,16 +95,19 @@ html {
   padding: 1rem;
   font-weight: 200; }
 
+.mission__card {
+  background-image: linear-gradient(to right bottom, rgba(51, 51, 51, 0.8), rgba(0, 47, 108, 0.8)), url("../../images/metal.jpg"); }
+
 .mission__slogan {
   font-size: 1.25rem;
-  color: #002f6c; }
+  color: #f0ad4e; }
 
 .mission__title--emp {
   font-size: 1.4rem;
   color: #f0ad4e; }
 
 .contact__background {
-  background-image: url("../../images/minneapolis-2.jpg");
+  background-image: linear-gradient(to right bottom, rgba(51, 51, 51, 0.8), rgba(0, 47, 108, 0.8)), url("../../images/metal.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover; }
@@ -104,4 +118,5 @@ html {
 
 .contact__inputs {
   font-size: 1rem;
-  color: #f0ad4e; }
+  color: #f0ad4e;
+  letter-spacing: 0.1rem; }
