@@ -17,8 +17,41 @@
     <title>EMD</title>
   </head>
   <body>
+    <!--NAV-->
+    <div id="mainnav">
+      <nav class="uk-container" uk-navbar>
+        <button
+          type="button"
+          class="navbar-toggle uk-hidden@m uk-margin-small-bottom"
+          uk-toggle="target:.toggle-target; cls:collapsed"
+        >
+          <!-- <span class="sr-only"></span> -->
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <div class="uk-navbar-brand">
+          <div class="uk-navbar-left uk-flex">
+            <ul class="uk-navbar-nav">
+              <li><a id="edm" href="#">EDM</a></li>
+            </ul>
+          </div>
+        </div>
+        <div
+          class="uk-navbar-right toggle-target collapsed uk-margin-small-bottom"
+        >
+          <ul class="uk-navbar-nav">
+            <li><a class="nav__links" href="./index.html">Home</a></li>
+            <li>
+              <a class="nav__links" href="./categories.html">Categories</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <hr />
     <!--catergories-->
-    <h2>incorporate navbar</h2>
+
     <h1 class="uk-text-center title uk-margin-large-top">Food Categories</h1>
     <!--Render Meal Cards-->
     <div

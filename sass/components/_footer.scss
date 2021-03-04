@@ -5,6 +5,7 @@
       rgba($color-main, 0.8)
     ),
     url("../../images/metal.jpg");
+  border: 8px solid $color-sec;
   &__copy {
     font-size: 1.2rem;
     text-transform: uppercase;

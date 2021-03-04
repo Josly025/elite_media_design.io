@@ -147,7 +147,8 @@ html {
   border: 0; }
 
 .footer {
-  background-image: linear-gradient(to right bottom, rgba(51, 51, 51, 0.8), rgba(0, 47, 108, 0.8)), url("../../images/metal.jpg"); }
+  background-image: linear-gradient(to right bottom, rgba(51, 51, 51, 0.8), rgba(0, 47, 108, 0.8)), url("../../images/metal.jpg");
+  border: 8px solid #f0ad4e; }
   .footer__copy {
     font-size: 1.2rem;
     text-transform: uppercase;
@@ -173,17 +174,25 @@ html {
   font-family: inherit; }
 
 .mission__card {
-  background: transparent;
-  border: 1px solid #f0ad4e; }
+  background-image: linear-gradient(to right bottom, rgba(51, 51, 51, 0.8), rgba(0, 47, 108, 0.8)), url("../../images/metal.jpg");
+  border: 8px solid #f0ad4e; }
 
 .mission__slogan {
   font-size: 1.25rem;
-  color: #002f6c; }
+  color: #f0ad4e;
+  letter-spacing: 0.1rem; }
+
+.mission__slogan--quote {
+  font-size: 1.25rem;
+  color: #002f6c;
+  letter-spacing: 0.1rem; }
 
 .mission__switcher {
+  color: #f0ad4e;
   font-size: 2rem;
   margin-top: -1rem;
-  padding: 1rem; }
+  padding: 1rem;
+  letter-spacing: 0.2rem; }
 
 .mission__title--emp {
   font-size: 1.4rem;
@@ -194,7 +203,8 @@ html {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: #f0ad4e; }
+  background-color: #f0ad4e;
+  border: 8px solid #f0ad4e; }
 
 #my-id {
   font-size: 1.2rem; }
@@ -203,7 +213,8 @@ html {
   background-image: linear-gradient(to right bottom, rgba(51, 51, 51, 0.8), rgba(0, 47, 108, 0.8)), url("../../images/metal.jpg");
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover; }
+  background-size: cover;
+  border: 8px solid #f0ad4e; }
 
 .contact__title {
   color: #f0ad4e !important;
