@@ -1,5 +1,5 @@
 const meals = document.getElementById("meals");
-
+const nav = document.getElementById("nav");
 window.onload = renderMeals();
 
 function renderMeals() {
@@ -43,4 +43,12 @@ function renderMeals() {
       );
       meals.innerHTML = render;
     });
+}
+
+function responsivenss() {
+  if (nav.className === "res__nav") {
+    nav.className += " responsive";
+  } else {
+    nav.className = "res__nav";
+  }
 }
