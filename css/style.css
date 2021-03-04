@@ -91,3 +91,17 @@ html {
 .mission__title--emp {
   font-size: 1.4rem;
   color: #f0ad4e; }
+
+.contact__background {
+  background-image: url("../../images/minneapolis-2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.contact__title {
+  color: #f0ad4e !important;
+  font-size: 2.5rem !important; }
+
+.contact__inputs {
+  font-size: 1rem;
+  color: #f0ad4e; }
