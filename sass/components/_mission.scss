@@ -7,8 +7,30 @@
     font-size: 1.25rem;
     color: $color-main;
   }
+  &__switcher {
+    font-size: 2rem;
+    margin-top: -1rem;
+    padding: 1rem;
+  }
   &__title--emp {
     font-size: 1.4rem;
     color: $color-sec;
   }
+}
+
+#logo__tile {
+  background-image: linear-gradient(
+      to right bottom,
+      rgba($color-black, 0.8),
+      rgba($color-main, 0.8)
+    ),
+    url("../../images/metal.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: $color-sec;
+}
+
+#my-id {
+  font-size: 1.2rem;
 }

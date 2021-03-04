@@ -30,9 +30,9 @@ function renderMeals() {
         <button uk-toggle="target: #my-id"
           class="uk-button uk-button-default uk-margin-medium-bottom dash__cartBtn"
         >
-          Full Reciepe
+          Description
         </button>
-          <p id="my-id">${meal.strCategoryDescription}</p>
+          <p id="my-id"  >${meal.strCategoryDescription}</p>
 </div>
 
 

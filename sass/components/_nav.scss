@@ -11,11 +11,18 @@
   }
 }
 
-//  &__glass {
-//     background: rgba(255, 255, 255, 0.438);
-//     border-radius: 0;
-//     position: relative;
-//     z-index: 1;
-//     /* color:rgba(128, 128, 128, 0.801) */
-//     backdrop-filter: blur(90px);
-//   }
+#edm {
+  -webkit-text-stroke: 1.5px $color-main;
+  color: $color-white;
+  letter-spacing: 0.3rem;
+  font-weight: 400;
+  font-size: 2.5rem !important;
+  font-family: inherit !important;
+
+  &:hover {
+    transition: 0.5s; /* Displays in 1 Second */
+    color: $color-sec;
+    -webkit-text-stroke: 1.5px $color-main;
+    border-top: 3px solid $color-sec;
+  }
+}

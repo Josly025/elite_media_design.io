@@ -8,15 +8,16 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/uikit@3.6.16/dist/css/uikit.min.css"
     />
+    <link rel="shortcut icon" href="./images/EDM_logo.ico" />
     <link rel="stylesheet" href="css/style.css" />
-    <title>Elite Media Design</title>
+    <title>EMD</title>
   </head>
   <body>
     <!--NAV-->
 
     <div class="uk-navbar-left uk-margin-medium-left">
       <ul class="uk-navbar-nav">
-        <li><a class="nav__links" href="#">EDM</a></li>
+        <li><a id="edm"  href="#">EDM</a></li>
         <li><a class="nav__links" href="./categories.html">Categories</a></li>
         <li><a class="nav__links" href="#mission">Mission</a></li>
         <li><a class="nav__links" href="#services">Services</a></li>
@@ -78,7 +79,7 @@
     </div>
 
     <div
-      class="uk-height-large uk-background-cover uk-overflow-hidden uk-light uk-flex uk-flex-top uk-margin-large-bottom"
+      class="uk-height-large uk-background-cover uk-overflow-hidden uk-light uk-flex uk-flex-top uk-margin-medium-bottom"
       style="background-image: url('images/minneapolis-2.jpg')"
     >
       <div
@@ -107,19 +108,18 @@
       </div>
     </div>
 
+
     <!--Mission-->
-    <div class="uk-child-width-expand@s uk-margin-large-bottom" uk-grid>
-      <div class="uk-grid-item-match ">
-        <div class="uk-card uk-card-default uk-card-body mission__card">
-          <h3 class="title">EMD</h3>
+     <div  class="uk-child-width-1-2 uk-text-center uk-margin-medium-bottom uk-flex uk-flex-center ">
+      <div>
+       <div id="logo__tile" class="uk-tile ">    
           <svg
-          class="uk-position-right uk-margin-large-top"
               id="svg"
               version="1.1"
               xmlns="http://www.w3.org/2000/svg"
               xmlns:xlink="http://www.w3.org/1999/xlink"
-              width="300"
-              height="150"
+              width="240"
+              height="auto"
               viewBox="0, 0, 400,400"
             >
               <g id="svgg">
@@ -159,15 +159,35 @@
                   fill-rule="evenodd"
                 ></path>
               </g>
-            </svg>
-          <h4 class="mission__title--emp">Elite Media Design</h4>
-          <p class="mission__slogan">Tansform your brand and become Elite</p>
+            </svg></div>
+      </div>
+
+    </div>
+    
+    <div class="uk-child-width-expand@s uk-margin-large-bottom" uk-grid>
+      
+      
+      <div class="uk-grid-item-match ">
+        <div class="uk-card uk-card-default uk-card-body mission__card">
+          
+            <ul class="uk-subnav uk-subnav-pill mission__switcher" uk-switcher="animation: uk-animation-slide-left-medium, uk-animation-slide-right-medium">
+            <li><a  href="#">Location</a></li>
+            <li><a href="#">Story</a></li>
+            <li><a href="#">Slogan</a></li>
+        </ul>
+
+        <ul class="uk-switcher mission__slogan">
+            <li>Local to Minneapolis but serving clients around the world!</li>
+            <li>Started by the owners and pervious college roommates Henry and John in their garage. </li>
+            <li>Tansform your brand and become an Elite company</li>
+        </ul>
+
         </div>
       </div>
       <div>
-        <h3 id="mission" class="title">Mission</h3>
+        <h3 id="mission" class="title ">Mission</h3>
         <blockquote cite="#">
-          <p class="uk-margin-small-bottom mission__slogan">
+          <p class="uk-margin-small-bottom uk-align-left@s mission__slogan">
             We strive to deliver value in our service, and to understand with
             respect all of our clients needs and to provide a partnership that
             is created when we host our clients web services, develop their
