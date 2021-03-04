@@ -51,12 +51,42 @@ html {
   backdrop-filter: blur(90px);
   padding: 1rem; }
 
+@media screen and (max-width: 1500px) {
+  .header__title {
+    backdrop-filter: blur(40px);
+    font-size: 1.7rem; }
+  .header__vision {
+    color: #f0ad4e;
+    font-size: 0.4rem;
+    margin-top: -3rem; } }
+
+@media screen and (max-width: 775px) {
+  .header__title {
+    font-size: 1.25rem;
+    backdrop-filter: blur(20px); } }
+
+@media screen and (max-width: 550px) {
+  .header__title {
+    font-size: 0.7rem;
+    backdrop-filter: blur(20px); }
+  .header__vision {
+    color: #f0ad4e;
+    font-size: 0.2rem;
+    margin-top: -7rem; } }
+
+@media screen and (max-width: 400px) {
+  .header__title {
+    font-size: 0.5rem;
+    backdrop-filter: blur(20px); }
+  .header__vision {
+    display: none; } }
+
 .header__vision {
   color: #f0ad4e;
   font-size: 2.3rem;
   letter-spacing: 0.4rem;
   text-transform: uppercase;
-  backdrop-filter: blur(90px);
+  backdrop-filter: blur(60px);
   padding: 2rem;
   font-weight: 100; }
 
@@ -161,7 +191,13 @@ html {
   .footer__info {
     color: #f0ad4e !important;
     letter-spacing: 0.1rem;
-    font-size: 1rem; }
+    font-size: 1.2rem; }
+  @media screen and (max-width: 945px) {
+    .footer__info {
+      font-size: 0.8rem; } }
+  @media screen and (max-width: 640px) {
+    .footer__info {
+      font-size: 1.2rem; } }
 
 .services__title {
   color: #f0ad4e !important;

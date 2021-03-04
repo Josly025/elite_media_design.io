@@ -23,8 +23,18 @@
   &__info {
     color: $color-sec !important;
     letter-spacing: 0.1rem;
-    font-size: 1rem;
+    font-size: 1.2rem;
 
     // text-transform: uppercase;
+  }
+  @media screen and (max-width: 945px) {
+    &__info {
+      font-size: 0.8rem;
+    }
+  }
+  @media screen and (max-width: 640px) {
+    &__info {
+      font-size: 1.2rem;
+    }
   }
 }
